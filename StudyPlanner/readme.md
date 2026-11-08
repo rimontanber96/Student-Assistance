@@ -1,5 +1,5 @@
  <div align="center">
-
+  
 # 📚 StudyPlanner
 
 ### 🎓 Academic Productivity & Study Management Module
