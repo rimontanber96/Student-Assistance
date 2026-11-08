@@ -298,8 +298,8 @@ Screenshots of the actual command-line application will be displayed here.
 
 ### 04. Class Timetable
 
-![Class Timetable](assets/screenshots/timetable.png)
-![Class Timetable](assets/screenshots/timetable1.png)
+![Class Timetable](studyplannerImage/timetable.png)
+![Class Timetable](studyplannerImage/timetable1.png)
 
 ### 05. Study Progress
 
