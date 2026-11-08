@@ -2,13 +2,13 @@
 
 # 📚 StudyPlanner
 
-### 🎓 Student Productivity & Academic Management Module
+### 🎓 Academic Productivity & Study Management Module
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Database-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
-  <img src="https://img.shields.io/badge/Framework-Pure%20Python-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Project-Student--Assistance-blueviolet?style=for-the-badge">
+  <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
+  <img src="https://img.shields.io/badge/Architecture-Modular%20Python-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Framework-No%20Django-blueviolet?style=for-the-badge">
 </p>
 
 <p>
@@ -16,132 +16,148 @@
   <img src="https://img.shields.io/github/issues/rimontanber96/Student-Assistance?style=for-the-badge&color=red">
 </p>
 
-**Plan Your Studies. Manage Your Tasks. Track Your Progress.**
+**Organize Your Studies • Manage Your Tasks • Track Your Progress**
 
-A modular Python-based academic productivity system developed as part of the larger **Student-Assistance** project.
+A Python-based academic management module developed as a part of the larger **Student-Assistance** project.
+
+<br>
+
+[📂 Main Repository](https://github.com/rimontanber96/Student-Assistance) · [🐍 Python](https://www.python.org/) · [🗄️ SQLite](https://www.sqlite.org/)
 
 </div>
 
 ---
 
-## 📖 About
+## 📖 About This Module
 
-Welcome to **StudyPlanner**!
+**StudyPlanner** is a dedicated academic productivity module within the [Student-Assistance](https://github.com/rimontanber96/Student-Assistance) project.
 
-StudyPlanner is an academic management and productivity module of the larger [Student-Assistance](https://github.com/rimontanber96/Student-Assistance) project.
+It focuses on helping students organize their academic responsibilities through a simple, structured, and modular Python application.
 
-It is designed to help students organize their academic activities, manage personal study tasks, maintain class schedules, store study notes, and monitor their learning progress.
+The module brings together essential study management functionalities:
 
-This module is developed using **Pure Python and SQLite**, focusing on modular programming, database management, authentication, and fundamental software development concepts.
+- Personal task management
+- Class timetable organization
+- Study notes management
+- Study progress tracking
+- User registration and authentication
 
-> ⚠️ **Project Context:** StudyPlanner is an independent module within Student-Assistance. It is not the complete Student-Assistance application.
+Unlike a Django-based web application, StudyPlanner is implemented using **Pure Python and SQLite** to demonstrate fundamental programming, database management, and software architecture concepts.
 
----
-
-## 🎯 Project Objectives
-
-- Organize personal academic tasks.
-- Manage class timetables and schedules.
-- Store and access study notes.
-- Track study hours and learning progress.
-- Provide basic student registration and login.
-- Demonstrate modular Python application development.
-- Maintain structured and persistent data using SQLite.
+> 💡 **Project Relationship:** StudyPlanner is one component of Student-Assistance. It is designed as a separate module that can contribute to the functionality of the overall project.
 
 ---
 
-## 🌟 Features
+## 🎯 Objectives
 
-| 🚀 Module | 📄 Description |
-|---|---|
-| 🔐 Authentication | Student registration and login functionality. |
-| 📌 Personal Tasks | Create, view, and complete study tasks. |
-| 📅 Class Timetable | Add and view class schedules. |
-| 📝 Study Notes | Create, save, and view study notes. |
-| 📊 Study Progress | Record study hours and covered topics. |
-| 🗄️ Database | Store application data using SQLite. |
+- Simplify academic task organization.
+- Maintain a structured class timetable.
+- Keep study notes organized.
+- Monitor personal study progress.
+- Implement basic user authentication.
+- Practice Python modular programming.
+- Understand relational database operations.
+- Build a foundation for future module integration.
 
-### 🔐 1. Authentication System
+---
 
-- Student registration.
-- User login verification.
+## 🌟 Core Modules & Features
+
+| Module | Description |
+|:---|:---|
+| 🔐 Authentication | User registration and login |
+| 📌 Personal Tasks | Organize academic tasks |
+| 📅 Timetable | Manage class schedules |
+| 📝 Study Notes | Store and access study notes |
+| 📊 Progress | Record study progress |
+| 🗄️ Database | Persistent SQLite storage |
+
+### 🔐 01. Authentication System
+
+- User registration.
+- Login verification.
 - Password hashing.
-- User-specific data access.
+- User-specific record management.
 
-### 📌 2. Personal Task Management
+### 📌 02. Personal Task Management
 
-- Add personal study tasks.
-- Set task priority (Low, Medium, High).
-- Assign deadlines.
+- Add personal tasks.
+- Organize task priorities.
+- Set task deadlines.
 - View saved tasks.
-- Mark tasks as completed.
+- Track task completion.
 
-### 📅 3. Class Timetable
+### 📅 03. Class Timetable
 
 - Add class schedules.
-- Store subject names.
-- Set class days and times.
-- View saved timetable entries.
+- Store subject information.
+- Organize classes by day and time.
+- View saved timetable records.
 
-### 📝 4. Study Notes
+### 📝 04. Study Notes
 
 - Create study notes.
 - Store note titles and content.
-- View previously saved notes.
+- View saved notes.
 
-### 📊 5. Study Progress
+### 📊 05. Study Progress
 
 - Record study hours.
-- Track covered topics.
-- View saved progress records.
-- Calculate total recorded study hours.
+- Store completed topics.
+- View study records.
+- Monitor accumulated study time.
 
 ---
 
 ## ⚡ Technology Stack
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,sqlite,git,github,vscode">
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,sqlite,git,github,vscode" alt="Technology Stack">
 </p>
 
-| Technology | Purpose |
-|---|---|
-| Python | Core application development |
-| SQLite | Local database management |
-| SQL | Database operations |
+| Technology | Application |
+|:---|:---|
+| Python 3.x | Core programming language |
+| SQLite | Local relational database |
+| SQL | Database queries |
 | hashlib | Password hashing |
-| os | File handling and random salt generation |
+| os | Operating system and file utilities |
 | Git | Version control |
-| GitHub | Project hosting and collaboration |
+| GitHub | Repository hosting |
 | VS Codium | Development environment |
 
 ### 💡 Why Pure Python Instead of Django?
 
-This version intentionally uses Pure Python without Django.
+This module intentionally uses Pure Python rather than Django.
 
-The primary goal is to understand the fundamentals of application development, including:
+The purpose is to understand how an application works at a fundamental level without depending on a full-stack web framework.
 
-- Functions and classes.
-- Modular programming.
-- Database connectivity.
-- SQL queries.
-- Authentication logic.
-- Application workflow.
-- File and folder organization.
+**Concepts practiced:**
 
-SQLite is selected because it is lightweight and does not require a separate database server.
+- Functions and classes
+- Modular programming
+- Python packages
+- Database connections
+- SQL CRUD operations
+- Authentication logic
+- Data persistence
+- Application navigation
+
+**Why SQLite?**
+
+SQLite is lightweight, serverless, and included in Python's standard library through `sqlite3`. It is suitable for a small local application.
 
 ---
 
 ## 🏗️ System Architecture
 
-StudyPlanner follows a modular architecture where each component has a specific responsibility.
+StudyPlanner follows a modular architecture that separates application control, authentication, data models, business logic, and database operations.
 
 ```mermaid
 flowchart TD
-    A["main.py<br/>Application Entry Point"]
+    A["main.py<br/>Application Entry"]
     B["auth.py<br/>Authentication"]
-    C["db.py<br/>Database Management"]
+    C["database.py<br/>Database Connection"]
     D["Student Dashboard"]
 
     E["Task Service"]
@@ -149,7 +165,7 @@ flowchart TD
     G["Notes Service"]
     H["Progress Service"]
 
-    I[("SQLite Database")]
+    I[("studyplanner.db")]
 
     A --> B
     A --> C
@@ -168,54 +184,56 @@ flowchart TD
     C --> I
 ```
 
-### Architecture Components
+### Architecture Responsibilities
 
-| Component | Responsibility |
-|---|---|
-| `main.py` | Controls application flow and navigation. |
-| `auth.py` | Handles registration and login. |
-| `db.py` | Manages database connections and tables. |
-| `models/` | Defines Python data classes. |
-| `services/` | Implements feature-specific operations. |
-| `database/` | Stores the SQLite database file. |
+| Layer | Responsibility |
+|:---|:---|
+| Application | Controls the main program |
+| Authentication | Handles user access |
+| Models | Represents application data |
+| Services | Contains feature-specific operations |
+| Database | Stores and retrieves records |
 
 ---
 
-## 📂 Repository Structure
+## 📂 Project Structure
 
 ```text
-Student-Assistance/
+StudyPlanner/
 │
-├── StudyPlanner/
-│   │
-│   ├── main.py
-│   ├── auth.py
-│   ├── db.py
-│   │
-│   ├── models/
-│   │   ├── __init__.py
-│   │   ├── task.py
-│   │   ├── timetable.py
-│   │   ├── notes.py
-│   │   └── progress.py
-│   │
-│   ├── services/
-│   │   ├── __init__.py
-│   │   ├── task_service.py
-│   │   ├── timetable_service.py
-│   │   ├── notes_service.py
-│   │   └── progress_service.py
-│   │
-│   ├── database/
-│   │   └── studyplanner.db
-│   │
-│   ├── assets/
-│   │   └── screenshots/
-│   │
-│   └── README.md
+├── main.py
+├── database.py
+├── auth.py
 │
-└── README.md
+├── models/
+│   ├── __init__.py
+│   ├── task.py
+│   ├── timetable.py
+│   ├── notes.py
+│   └── progress.py
+│
+├── services/
+│   ├── __init__.py
+│   ├── task_service.py
+│   ├── timetable_service.py
+│   ├── notes_service.py
+│   └── progress_service.py
+│
+└── database/
+    └── studyplanner.db
 ```
+
+### 📁 Directory Explanation
+
+| File / Directory | Purpose |
+|:---|:---|
+| `main.py` | Main application entry point |
+| `database.py` | Database initialization and connection management |
+| `auth.py` | Registration and login functionality |
+| `models/` | Data model definitions |
+| `services/` | Application business logic |
+| `database/` | SQLite database storage |
+| `__init__.py` | Defines regular Python packages |
 
 ---
 
@@ -223,12 +241,12 @@ Student-Assistance/
 
 ```mermaid
 flowchart TD
-    A([Start Application])
+    A([Start])
     B["Initialize Database"]
     C["Main Menu"]
     D["Register"]
     E["Login"]
-    F{"Authentication Successful?"}
+    F{"Login Successful?"}
     G["Student Dashboard"]
 
     H["Personal Tasks"]
@@ -242,7 +260,6 @@ flowchart TD
     A --> B --> C
     C --> D --> C
     C --> E --> F
-
     F -->|Yes| G
     F -->|No| C
 
@@ -264,65 +281,68 @@ flowchart TD
 
 ## 🖥️ Application Preview
 
-The following screenshots demonstrate the current command-line interface.
+Screenshots of the actual command-line application will be displayed here.
 
-### 1. Main Menu
+### 01. Main Menu
 
-![StudyPlanner Main Menu](assets/screenshots/main-menu.png)
+![Main Menu](assets/screenshots/main-menu.png)
 
-### 2. Student Dashboard
+### 02. Student Dashboard
 
 ![Student Dashboard](assets/screenshots/dashboard.png)
 
-### 3. Personal Task Management
+### 03. Personal Task Management
 
 ![Task Management](assets/screenshots/task-management.png)
+![Task Management](assets/screenshots/task-management1.png)
 
-### 4. Class Timetable
+### 04. Class Timetable
 
 ![Class Timetable](assets/screenshots/timetable.png)
+![Class Timetable](assets/screenshots/timetable1.png)
 
-### 5. Study Progress
+### 05. Study Progress
 
 ![Study Progress](assets/screenshots/progress.png)
+![Study Progress](assets/screenshots/progress1.png)
 
-> 📌 Screenshots are placeholders until actual application screenshots are added to the repository.
+> 📌 Add your actual application screenshots to `assets/screenshots/` using the filenames above. Until then, these preview images will not render.
 
 ---
 
-## ⚙️ Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
-Before running the application, make sure you have:
+Make sure you have:
 
-- Python 3.x installed.
-- VS Code or VS Codium.
-- Git installed (optional).
+- Python 3.x
+- VS Code or VS Codium
+- Git (optional)
 
-**No external Python packages are required** for the current basic implementation because it uses Python standard-library modules, including `sqlite3`, `hashlib`, and `os`.
+No third-party Python packages are required for the basic implementation if it uses only the standard-library modules.
 
-### 1. Clone the Main Repository
+### 01. Clone the Main Repository
 
 ```bash
 git clone https://github.com/rimontanber96/Student-Assistance.git
 ```
 
-### 2. Navigate to StudyPlanner
+### 02. Navigate to StudyPlanner
 
 ```bash
 cd Student-Assistance/StudyPlanner
 ```
 
-### 3. Run the Application
+### 03. Run the Application
 
 ```bash
 python main.py
 ```
 
-### 4. Register or Login
+### 04. Register or Login
 
-The application will display:
+The application starts with the following menu:
 
 ```text
 ===== STUDY PLANNER =====
@@ -334,9 +354,9 @@ The application will display:
 Choose option:
 ```
 
-Select `1` to create an account or `2` to log in.
+Select `1` to register or `2` to log in.
 
-### 5. Access the Dashboard
+### 05. Access the Dashboard
 
 ```text
 ===== STUDENT DASHBOARD =====
@@ -350,70 +370,103 @@ Select `1` to create an account or `2` to log in.
 Choose option:
 ```
 
-Select the desired feature to manage your academic activities.
+Choose a module to start managing your academic activities.
 
 ---
 
 ## 🗄️ Database Design
 
-StudyPlanner uses SQLite for persistent data storage.
+StudyPlanner uses SQLite to maintain persistent application data.
 
-### Database Tables
+### Database Components
 
 | Table | Description |
-|---|---|
-| `users` | Stores student accounts and password hashes. |
-| `tasks` | Stores personal study tasks. |
-| `timetable` | Stores class schedules. |
-| `notes` | Stores study notes. |
-| `progress` | Stores study hours and topics. |
+|:---|:---|
+| `users` | User account information |
+| `tasks` | Personal study tasks |
+| `timetable` | Class schedule records |
+| `notes` | Study notes |
+| `progress` | Study progress records |
 
-Each academic record includes a `user_id` field to associate records with their respective users.
+The academic records are associated with users through `user_id`, where implemented in the database schema.
 
 ---
 
-## 🚧 Current Development Status
+## 🛡️ Design Decisions
+
+| Decision | Reason |
+|:---|:---|
+| Pure Python | Practice core Python concepts |
+| SQLite | Lightweight local database |
+| Modular structure | Easier maintenance and extension |
+| Separate Models | Organize application data |
+| Separate Services | Keep feature logic organized |
+| `__init__.py` | Explicit regular package structure |
+
+### Why Not Django?
+
+Django provides many built-in features, including routing, ORM, authentication, and an admin interface.
+
+However, using Django would hide some of the lower-level implementation details that this educational module is intended to demonstrate.
+
+StudyPlanner therefore uses a simpler approach to understand how these components work internally.
+
+---
+
+## 🚧 Development Status
 
 | Feature | Status |
-|---|---|
-| User Registration | ✅ Implemented |
-| User Login | ✅ Implemented |
-| Password Hashing | ✅ Implemented |
-| Add/View Tasks | ✅ Implemented |
-| Complete Tasks | ✅ Implemented |
-| Add/View Timetable | ✅ Implemented |
-| Add/View Notes | ✅ Implemented |
-| Add/View Progress | ✅ Implemented |
-| Edit/Delete Operations | 🔄 Planned |
-| Advanced Input Validation | 🔄 Planned |
-| Study Analytics | 🔄 Planned |
-| GUI Interface | 🔄 Future Scope |
+|:---|:---|
+| Registration | Implemented |
+| Login | Implemented |
+| Task Management | Initial implementation |
+| Timetable Management | Initial implementation |
+| Study Notes | Initial implementation |
+| Progress Tracking | Initial implementation |
+| SQLite Integration | Implemented |
+| Graphical Interface | Future scope |
+| Advanced Analytics | Future scope |
 
 ---
 
 ## 🚀 Future Improvements
 
-- [ ] Complete CRUD operations for all modules.
-- [ ] Improve input validation and error handling.
-- [ ] Add date-wise study progress tracking.
-- [ ] Introduce weekly and monthly study analytics.
-- [ ] Add study reminders and notifications.
-- [ ] Develop a graphical user interface.
-- [ ] Improve database relationships and constraints.
-- [ ] Add automated testing.
+- [ ] Complete CRUD operations.
+- [ ] Improve input validation.
+- [ ] Add weekly and monthly analytics.
+- [ ] Introduce study reminders.
+- [ ] Add a graphical user interface.
+- [ ] Improve database relationships.
+- [ ] Implement automated testing.
 - [ ] Integrate with other Student-Assistance modules.
+
+---
+
+## 🔗 Main Project
+
+StudyPlanner is part of the larger Student-Assistance project.
+
+Explore the complete repository to understand the other modules and the overall project architecture.
+
+<div align="center">
+
+### 🎓 Student-Assistance
+
+[![GitHub Repository](https://img.shields.io/badge/Explore-Student--Assistance-181717?style=for-the-badge&logo=github)](https://github.com/rimontanber96/Student-Assistance)
+
+</div>
 
 ---
 
 ## 🤝 Contribution
 
-StudyPlanner is developed as part of the broader Student-Assistance project.
+Contributions to the larger Student-Assistance project are welcome.
 
-The modular architecture makes it easier to maintain, test, and extend individual features.
-
-For project-level contributions, visit the main repository:
-
-👉 [Student-Assistance on GitHub](https://github.com/rimontanber96/Student-Assistance)
+1. Fork the main repository.
+2. Create a feature branch.
+3. Implement your changes.
+4. Test the implementation.
+5. Submit a pull request.
 
 ---
 
@@ -421,11 +474,11 @@ For project-level contributions, visit the main repository:
 
 <div align="center">
 
-### YA
+### StudyPlanner Development
 
-**Student-Assistance | StudyPlanner Module**
+**Part of Student-Assistance**
 
-🔗 GitHub: [rimontanber96](https://github.com/rimontanber96)
+[GitHub Profile](https://github.com/rimontanber96)
 
 </div>
 
@@ -433,12 +486,12 @@ For project-level contributions, visit the main repository:
 
 ## ⭐ Support
 
-If you find this module interesting:
+If you find the project interesting:
 
-- ⭐ Star the main Student-Assistance repository.
-- 🍴 Fork the repository.
-- 📢 Share the project.
+- ⭐ Star the main repository.
+- 🍴 Fork the project.
 - 💡 Suggest improvements.
+- 📢 Share with other students and developers.
 
 ---
 
@@ -458,5 +511,5 @@ Made with ❤️ using Python.
 
 ## 📜 License
 
-Please refer to the main [Student-Assistance repository](https://github.com/rimontanber96/Student-Assistance) for licensing information.
+Refer to the main [Student-Assistance repository](https://github.com/rimontanber96/Student-Assistance) for the project's licensing information.
 
