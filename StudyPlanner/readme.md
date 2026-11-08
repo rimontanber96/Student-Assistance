@@ -484,6 +484,8 @@ Contributions to the larger Student-Assistance project are welcome.
 
 ### YA (20255103059)
 
+🔗 GitHub: https://github.com/MrY0957
+
 </div>
 
 ---
