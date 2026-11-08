@@ -285,16 +285,16 @@ Screenshots of the actual command-line application will be displayed here.
 
 ### 01. Main Menu
 
-![Main Menu](assets/screenshots/main-menu.png)
+![Main Menu](studyplannerImage/main-menu.png)
 
 ### 02. Student Dashboard
 
-![Student Dashboard](assets/screenshots/dashboard.png)
+![Student Dashboard](studyplannerImage/dashboard.png)
 
 ### 03. Personal Task Management
 
-![Task Management](assets/screenshots/task-management.png)
-![Task Management](assets/screenshots/task-management1.png)
+![Task Management](studyplannerImage/task-management.png)
+![Task Management](studyplannerImage/task-management1.png)
 
 ### 04. Class Timetable
 
@@ -303,10 +303,10 @@ Screenshots of the actual command-line application will be displayed here.
 
 ### 05. Study Progress
 
-![Study Progress](assets/screenshots/progress.png)
-![Study Progress](assets/screenshots/progress1.png)
+![Study Progress](studyplannerImage/progress.png)
+![Study Progress](studyplannerImage/progress1.png)
 
-> 📌 Add your actual application screenshots to `assets/screenshots/` using the filenames above. Until then, these preview images will not render.
+> 📌 Add your actual application screenshots to `studyplannerImage/` using the filenames above. Until then, these preview images will not render.
 
 ---
 
@@ -483,7 +483,15 @@ Contributions to the larger Student-Assistance project are welcome.
 </div>
 
 ---
+<div align="center">
+## 👨‍💻 Author
 
+### YA
+
+🔗 GitHub: https://github.com/MrY0957
+
+---
+</div>
 ## ⭐ Support
 
 If you find the project interesting:
