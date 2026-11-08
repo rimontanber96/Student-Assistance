@@ -478,20 +478,15 @@ Contributions to the larger Student-Assistance project are welcome.
 
 **Part of Student-Assistance**
 
-[GitHub Profile](https://github.com/rimontanber96)
+[GitHub Profile](https://github.com/MrY0957)
 
-</div>
-
----
-<div align="center">
 ## 👨‍💻 Author
 
-### YA
+### YA (20255103059)
 
-🔗 GitHub: https://github.com/MrY0957
+</div>
 
 ---
-</div>
 ## ⭐ Support
 
 If you find the project interesting:
