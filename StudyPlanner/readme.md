@@ -111,7 +111,7 @@ Unlike a Django-based web application, StudyPlanner is implemented using **Pure 
 
 ## ⚡ Technology Stack
 
-<p align="center">
+<p align="left">
   <img src="https://skillicons.dev/icons?i=python,sqlite,git,github,vscode" alt="Technology Stack">
 </p>
 
