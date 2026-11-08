@@ -478,9 +478,9 @@ Contributions to the larger Student-Assistance project are welcome.
 
 **Part of Student-Assistance**
 
-[GitHub Profile](https://github.com/MrY0957)
-
 ## 👨‍💻 Author
+
+[GitHub Profile](https://github.com/MrY0957)
 
 ### YA (20255103059)
 
